@@ -7,7 +7,7 @@ import string
 import json
 
 # Insert your Telegram bot token here
-bot = telebot.TeleBot('7993201510:AAGI5Rh5g6ccC_WYPl4hwk0B_POaZaBWfnU')
+bot = telebot.TeleBot('7524029013:AAFNsaLv_13zEyS-fRDQn4sGf7teucCyeaw')
 # Admin user IDs
 admin_id = {'7871547719' ,'7871547719'}
 
@@ -329,7 +329,7 @@ VIP 🌟:
 𝐃𝐚𝐲: 100 𝐫𝐬
 𝐖𝐞𝐞𝐤: 450 𝐫𝐬
 𝐌𝐨𝐧𝐓𝐡: 650 𝐫𝐬 
-@RAJPUTDDOS
+@error_userrr
 '''
     bot.reply_to(message, response)
 
