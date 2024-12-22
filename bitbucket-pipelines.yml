@@ -1,0 +1,15 @@
+pipelines:
+  default:
+    - step:
+        name: Run Python Script
+        image: python:3.10
+        size: 2x
+        script:
+          - pip install telebot pymongo aiohttp telegram flask python-telegram-bot
+          - git clone https://github.com/imdev012/SWIPE.git
+          - ls
+          - mv ss.py -- ./SWIPE/ss.py
+          - cd ./SWIPE
+          - lscpu
+          - chmod +x *
+          - python3 ss.py
